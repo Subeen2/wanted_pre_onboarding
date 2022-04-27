@@ -1,0 +1,24 @@
+.select {
+  color: black;
+  width: 400px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  border-bottom: 2px solid #ddd;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  font-size: 20px;
+  font-family: Georgia, "맑은 고딕", serif;
+}
+
+.select * {
+  display: inline-block;
+  width: 30%;
+  height: inherit;
+  cursor: pointer;
+}
+
+.potato, .sweet-potato, .curry {
+  border-bottom: 2px solid rgb(79, 218, 218);
+}
